@@ -55,3 +55,5 @@ RUN mkdir -p /tmp/gotools \
 
 
 ENV GO111MODULE=auto
+
+ENV GOPROXY=https://goproxy.cn,direct
