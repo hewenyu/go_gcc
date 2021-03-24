@@ -1,5 +1,5 @@
 # [Choice] Go version: 1, 1.16, 1.15
-ARG VARIANT=1。14
+ARG VARIANT=1.14
 FROM golang:${VARIANT}
 
 # [Option] Install zsh
